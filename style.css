@@ -57,7 +57,12 @@
     margin-left: 5vh;
     line-height: 3vh;
     border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
 .annual-income, .monthly-income p{
     line-height: 3vh;
     border-bottom: 1px solid black;
@@ -128,4 +133,19 @@ footer a {
 .Formal p:nth-last-child(2) {
     text-decoration: none;
     
+}
+
+a {
+    background-color: white;
+    width: 10vh;
+    height: 5vh;
+    border-radius: 20px;
+    text-decoration: none;
+    display: grid;
+    place-items: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
 }
